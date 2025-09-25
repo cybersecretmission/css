@@ -127,7 +127,7 @@
 }
 .front-side {
   &::after {
-    right: 150px;
+    right: 160px;
   }
   background: linear-gradient(to left, #f7f7f7 80%, #eee 100%);
   border-radius: .1em .5em .5em .1em;
@@ -135,7 +135,7 @@
 .back-side {
   &::after {
     color: blue;
-    left: 150px;
+    left: 160px;
   }
   background-image: linear-gradient(to right, #f7f7f7 80%, #eee 100%);
   border-radius: .5em .1em .1em .5em;
