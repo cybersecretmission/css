@@ -57,3 +57,17 @@ background-color: red;
   background-color: Yellow;
   border-radius: 50%;
 }
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  #audio-player {
+    max-width: 300px;
+}
+
+
+
