@@ -6,19 +6,20 @@ body {
 
 .password-container {
   background-color: rgba(0, 0, 0 , .8);
-  max-width: 500px;
-  margin: 200px auto;
+  width: 500px;
+  height: 250px;
+  margin: 80px auto;
   padding: 20px;
   border: 2px solid yellow;
   border-radius: 10px;
   display: none;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, 50%);
 }
 
-h2 {
+.password-container h2 {
   color: yellow;
 }
   
