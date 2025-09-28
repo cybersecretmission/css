@@ -1,0 +1,38 @@
+.password-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  display: none;
+}
+  
+.password-input {
+  width: 95%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+  
+.password-button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+  
+.password-button:hover {
+  background-color: #45a049;
+}
+  
+#protected-content {
+  display: none;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin-top: 20px;
+}
