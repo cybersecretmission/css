@@ -180,12 +180,12 @@ body {
 
 .time--current {
   color: yellow;
-  left: 10px;
+  left: 7px;
 }
 
 .time--total {
   color: red;
-  right: 10px;
+  right: 7px;
 }
 
 .currently-playing {
