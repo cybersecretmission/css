@@ -137,11 +137,11 @@ body {
 }
 
 .progress-bar {
+  background-color: blue;
   height: 5px;
   margin-top: 2px;
   width: 73%;
   margin: 6% auto;
-  background: #d8e1c3;
   border-radius: 10px;
   font-family: "Questrial", sans-serif;
 }
@@ -154,7 +154,7 @@ body {
 }
 
 .thumb {
-  background-color: blue;
+  background-color: magenta;
   position: absolute;
   transform: translate(-50%, -50%);
   width: 12px;
