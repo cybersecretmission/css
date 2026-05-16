@@ -1,4 +1,5 @@
-@import url("https://fonts.googleapis.com/css?family=Questrial");
+@import url("https://cybersecretmission.github.io/fonts/bangla/bangla-custom-font.css");
+@import url("https://cybersecretmission.github.io/fonts/bangla/english-custom-font.css");
 
 html {
   min-height: 100%;
@@ -15,7 +16,7 @@ body {
 #player {
   ackground: #ffffff;
   background: linear-gradient(rgba(54, 79, 60, 0.25), rgba(73, 101, 77, 0.55)),
-    url("https://i.ibb.co/bM0bt8Nk/GHOST-1.jpg");
+    url("https://cybersecretmission.github.io/images/secret.jpg");
   background-repeat: no-repeat;
   background-size: 300px;
   width: 100%;
@@ -146,18 +147,18 @@ body {
 }
 
 .fill {
-  background-color: #859e63;
+  background-color: yellow;
   width: 35%;
   height: 0.3rem;
   border-radius: 2px;
 }
 
 .thumb {
+  background-color: blue;
   position: absolute;
   transform: translate(-50%, -50%);
   width: 12px;
   height: 12px;
-  background: #49654d;
   border-radius: 50%;
   pointer-events: none;
   opacity: 0;
@@ -170,17 +171,20 @@ body {
 
 .time--current,
 .time--total {
-  color: #ffffff;
   font-size: 10px;
+  font-weight: bold;
+  font-family: times;
   position: absolute;
   margin-top: -2px;
 }
 
 .time--current {
+  color: yellow;
   left: 15px;
 }
 
 .time--total {
+  color: red;
   right: 15px;
 }
 
@@ -191,14 +195,14 @@ body {
 
 .song-name,
 .artist-name {
-  font-family: "Questrial", sans-serif;
+  font-family: solaiman-lipi;
   text-transform: uppercase;
   margin: 80;
 }
 
 .song-name {
   font-size: 0.8em;
-  letter-spacing: 3px;
+  letter-spacing: px;
   color: #ffffff;
 }
 
